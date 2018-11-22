@@ -1,0 +1,12 @@
+.DS_Store
+
+# Elastic Beanstalk CLI Files
+.elasticbeanstalk/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Application Zip file bundle
+*.zip

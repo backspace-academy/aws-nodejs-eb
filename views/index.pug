@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="")
+    meta(name="author" content="")
+    title #{title} Example
+    // Bootstrap core CSS
+    link(href="static/bootstrap/css/theme/flatly/bootstrap.css" rel="stylesheet")
+    // Custom styles for this template
+    link(href="static/bootstrap/css/jumbotron-narrow.css" rel="stylesheet")
+  body
+    .container
+      .header
+        ul.nav.nav-pills.pull-right
+          li.active
+            a(href="#") Home
+          li
+            a(href="#") About
+          li
+            a(href="#") Blog
+          li
+            a(href="#") Press
+        h3.text-muted A New Startup
+      .jumbotron
+        h1 Welcome to #{title}...
+        p.lead
+          | We're pretty thrilled to show you the cool things you can do with #{title}!
+        p
+          a.btn.btn-lg.btn-success(data-toggle="modal" href="#") Sign up today
+      .footer
+        p © A New Startup 2016
+      script(src="static/jquery/jquery-1.11.3.min.js")
+      script(src="static/bootstrap/js/bootstrap.min.js")
