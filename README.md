@@ -1,1 +1,1 @@
-# aws-nodejs-eb-codebuild
+# AWS Elastic Beanstalk NodeJS application template
